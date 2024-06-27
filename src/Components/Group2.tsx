@@ -1,4 +1,5 @@
 import "./Group2.css";
+import keyboard from '../assets/mobile/image-keyboard.jpg'
 
 export const Group2 = () => {
   return <div className="group2">
@@ -13,7 +14,7 @@ export const Group2 = () => {
         </div>
     </div>
     <div className="box2">
-
+        <img src={keyboard} alt="keyboard"/>
     </div>
   </div>;
 };

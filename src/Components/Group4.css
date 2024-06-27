@@ -1,0 +1,27 @@
+.group4 {
+  height: 226px;
+  display: flex;
+  position: relative;
+  right: 30px;
+  gap: 1rem;
+}
+
+.group4 .phonekeyboard,
+.group4 img {
+  height: 100%;
+  border-radius: 20px;
+}
+
+.mask {
+    position: absolute;
+    width: 144px;
+    height: 226px;
+    z-index: 1;
+    bottom: 30px;
+    top: 1px;
+    left: 8px;
+    border-radius: 20px;
+    background-color: #F16718;
+    opacity: 0.7486;
+    mix-blend-mode: multiply;
+}
