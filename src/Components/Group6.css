@@ -24,3 +24,17 @@
   font-weight: 500;
   line-height: 1.625rem; /* 162.5% */
 }
+
+@media (min-width: 768px) {
+  .group6{
+    flex-direction: row;
+  }
+  .group6 h2 {
+    text-align: left;
+  }
+  .group6 p {
+    width: 398px;
+    text-align: left;
+  }
+  
+}

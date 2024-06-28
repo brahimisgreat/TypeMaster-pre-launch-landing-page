@@ -6,3 +6,12 @@
   justify-content: space-around;
   gap: 3.75em;
 }
+
+@media (min-width: 768px){
+  .app{
+    width: 43.0625rem;
+    gap: 5.625em;
+    overflow: hidden;
+  }
+  
+}

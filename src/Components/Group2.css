@@ -49,12 +49,23 @@
   line-height: 1.625rem; /* 162.5% */
 }
 
-.group2 .box2 {
- 
-}
-
 .group2 .box2 img {
   width: 395px;
   height: 331px;
   border-radius: 16px;
+}
+
+@media (min-width: 768px) {
+  .group2{
+    flex-direction: row;
+  }
+
+  .group2 .box1 h1{
+    width: 339px;
+  }
+
+  .group2 .box1 .preorder button{
+    width:175px;
+    height: 58px;
+  }
 }

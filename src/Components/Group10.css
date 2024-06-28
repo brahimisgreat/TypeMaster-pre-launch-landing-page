@@ -12,8 +12,6 @@
   gap: 30px;
 }
 
-
-
 .group10 .sqaure10 h2 {
   color: #162542;
   text-align: center;
@@ -24,11 +22,19 @@
   text-transform: uppercase;
 }
 
-.group10 .sqaure10 p{
-    color: #7B8BAD;
-text-align: center;
-font-size: 1rem;
-font-style: normal;
-font-weight: 500;
-line-height: 1.625rem; /* 162.5% */
+.group10 .sqaure10 p {
+  color: #7b8bad;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem; /* 162.5% */
+}
+
+@media (min-width: 768px) {
+  .group10 {
+    width: 631px;
+    height: 650px;
+    display: grid;
+  }
 }

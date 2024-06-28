@@ -13,15 +13,41 @@
 }
 
 .mask {
-    position: absolute;
-    width: 144px;
-    height: 226px;
-    z-index: 1;
-    bottom: 30px;
-    top: 1px;
-    left: 8px;
-    border-radius: 20px;
-    background-color: #F16718;
-    opacity: 0.7486;
-    mix-blend-mode: multiply;
+  position: absolute;
+  width: 150px;
+  height: 226px;
+  z-index: 1;
+  bottom: 30px;
+  top: 1px;
+  left: 0px;
+  border-radius: 20px;
+  background-color: #f16718;
+  opacity: 0.7486;
+  mix-blend-mode: multiply;
+}
+
+@media (min-width: 768px) {
+  .group4 {
+    width: 100%;
+    gap: 50px;
+    height: 320px;
+  }
+
+  .group4 .phonekeyboard .mask {
+    width: 214px;
+    height: 320px;
+    left: 28px;
+  }
+
+  .group4 .phonekeyboard img {
+    width: 214px;
+    height: 320px;
+    position: relative;
+    left: 28px;
+  }
+
+  .group4 img {
+    width: 445px;
+    height: 320px;
+  }
 }
