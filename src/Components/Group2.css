@@ -40,6 +40,10 @@
   color: white;
   border-radius: 0.5rem;
 }
+.group2 .box1 .preorder button:hover {
+  background-color: #FF9B62;
+  cursor: pointer;
+}
 
 .group2 .box1 .preorder span {
   color: #7b8bad;

@@ -30,7 +30,7 @@ const Group10 = () => {
         <h2>HIGH CAPACITY<br/> BATTERY</h2>
         <p>
           Equipped with a long-lasting built-in battery, you’ll never have to
-          spend a dime on replaceable ones. Enjoy 40 hours of usage time between
+          spend a dime on replaceable ones.Enjoy 40 hours of usage time between
           charges.
         </p>
       </div>
