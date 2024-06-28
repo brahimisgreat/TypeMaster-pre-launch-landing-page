@@ -34,12 +34,12 @@
 @media (min-width: 768px) {
   .group10 {
     width: 768px;
-    height: 1000px;
+    height: 800px;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-justify-content: center;
-gap: 100px;
+    justify-content: center;
+    gap: 100px;
   }
 
   .group10 .sqaure10 h2 {
@@ -51,6 +51,18 @@ gap: 100px;
   }
 
   .group10 .sqaure10 {
-   align-items: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .group10{
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    height: 0;
+    transform: translate(0, -100px);
   }
 }

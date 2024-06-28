@@ -26,6 +26,7 @@
   mix-blend-mode: multiply;
 }
 
+/* Media for TABLETS */
 @media (min-width: 768px) {
   .group4 {
     width: 100%;
@@ -49,5 +50,23 @@
   .group4 img {
     width: 445px;
     height: 320px;
+  }
+}
+
+/* Media for DESKTOPS */
+@media (min-width: 1440px) {
+  .group4 {
+    height: 480px;
+  }
+
+  .group4 .phonekeyboard .mask,
+  .group4 .phonekeyboard img {
+    width: 255px;
+    height: 480px;
+  }
+
+  .group4 img {
+    width: 445px;
+    height: 480px;
   }
 }

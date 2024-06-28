@@ -26,7 +26,7 @@
 }
 
 @media (min-width: 768px) {
-  .group6{
+  .group6 {
     flex-direction: row;
   }
   .group6 h2 {
@@ -36,5 +36,19 @@
     width: 398px;
     text-align: left;
   }
-  
+}
+
+@media (min-width: 1440px) {
+  .group6 {
+    width: 255px;
+    height: 265px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    transform: translate(400px, -430px);
+  }
+
+  .group6 p{
+    width: 255px;
+  }
 }

@@ -15,3 +15,9 @@
   }
   
 }
+
+@media (min-width: 1440px){
+  .app{
+    width: 73.5rem;
+  }
+}
