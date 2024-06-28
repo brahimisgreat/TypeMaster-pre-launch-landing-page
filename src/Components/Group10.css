@@ -33,8 +33,24 @@
 
 @media (min-width: 768px) {
   .group10 {
-    width: 631px;
-    height: 650px;
-    display: grid;
+    width: 768px;
+    height: 1000px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+justify-content: center;
+gap: 100px;
+  }
+
+  .group10 .sqaure10 h2 {
+    text-align: left;
+  }
+  .group10 .sqaure10 p {
+    width: 281px;
+    text-align: left;
+  }
+
+  .group10 .sqaure10 {
+   align-items: flex-start;
   }
 }
